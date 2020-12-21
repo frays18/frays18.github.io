@@ -1,0 +1,324 @@
+@media (min-width: 1350px){
+  #main_menu{
+    width: 1000px;
+    height: 70px;
+  }
+  #main_menu .main_nav li{
+    margin-left: 80px;
+  }
+  .sections{
+    font-size: 1.5em;
+  }
+  #content_1, #content_2, #content_3{
+    width: 1000px;
+    height: 600px;
+  }
+  .about_me .photo, .serv_icons{
+    width: 200px;
+    height: 200px;
+  }
+  .serv_sections li .im{
+    font-size: 12.65em;
+  }
+  .about_me .name, .sert_title, .serv_title{
+    font-size: 1.5em;
+  }
+  .about_me .mytext, .serv_text{
+    font-size: 1.2em;
+  }
+  .education_title, .experience_title{
+    font-size: 1.5em;
+  }
+  #content_2 i.im-arrow-left-circle, #content_2 i.im-arrow-right-circle{
+    font-size: 1.5em;
+  }
+  .education .im-arrow-right, .experience .im-arrow-left, .education .im-magnifier-plus, .experience .im-magnifier-plus{
+    font-size: 2.5em;
+  }
+  .slides{
+    font-size: 1.2em;
+  }
+  .slide_left, .slide_right{
+    top: 51%;
+  }
+  .slider_status_pers{
+    width: 80px;
+    height: 15px;
+    top: 52%;
+  }
+  .servs_menu_point{
+    margin-bottom:40px;
+    font-size: 1.5em;
+  }
+  .img_conteiner{
+    width: 680px;
+    height: 300px;
+  }
+  .img_zoomer{
+    width: 200px;
+    height: 140px;
+  }
+  .picture i{
+    font-size: 6em;
+  }
+  .social_n{
+    width: 355px;
+  }
+  .social_n a{
+    margin-left: 65px;
+  }
+  .social_n a i{
+    font-size: 2.3em;
+  }
+  #contact_content{
+    width: 600px;
+    height: 300px;
+  }
+  .my_email{
+    font-size: 1.5em;
+  }
+  .add_menu_content_title{
+    font-size: 1.2em;
+  }
+  .edu_slider .slides_title p{
+    font-size: 1.1em;
+    margin-top: 0px;
+  }
+  .slides_text{
+    font-size: 1.1em;
+  }
+  .exp_slider .slides_title p{
+    margin-top: 0px;
+  }
+  .add_menu_content_title p{
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 0px) and (max-width: 1126px){
+  .add_nav{
+    width: 60px;
+    height: 60px;
+  }
+  .add_nav i{
+    font-size: 4em;
+  }
+  .add_nav i.im.im-pin{
+    font-size: 2em;
+  }
+}
+@media (min-width: 0px) and (max-width: 860px){
+  #main_menu{
+    width: 600px;
+  }
+  #content_1, #content_2, #content_3{
+    width: 600px;
+  }
+  #contact_content{
+    width: 400px;
+  }
+  .about_me .photo, .serv_icons{
+    width: 140px;
+    height: 140px;
+  }
+  .about_me_conteiner .mytext{
+    width: 200px;
+    font-size: 0.9em;
+  }
+  .serv_sections li .im{
+    font-size: 8.9em;
+  }
+  .serv_sections .serv_text{
+    width: 200px;
+    font-size: 0.9em;
+  }
+  .edu_slider, .exp_slider{
+    width: 307px;
+  }
+  .education{
+    font-size: 0.9em;
+  }
+  .experience{
+    font-size: 0.9em;
+  }
+  .img_conteiner{
+    width: 380px;
+    height: 340px;
+  }
+  .social_n a{
+    margin-left: 40px;
+  }
+}
+@media (min-width: 0px) and (max-width: 660px){
+  #content_1, #content_2, #content_3{
+    width: 450px;
+    height: 350px;
+  }
+  #contact_content{
+    width: 300px;
+    height: 250px;
+  }
+  .about_me .photo, .serv_icons{
+    width: 100px;
+    height: 100px;
+  }
+  .about_me_conteiner .mytext, .serv_sections .serv_text{
+    width: 175px;
+    font-size: 0.8em;
+  }
+  .serv_title , .about_me .name{
+    font-size: 1.1em;
+  }
+  .serv_sections li .im{
+    font-size: 6.4em;
+  }
+  .slide_right{
+    margin-left: 50px;
+  }
+  .slide_left {
+    margin-left: -50px;
+  }
+  .slider_status_pers{
+    top: 42.5%;
+  }
+  .img_conteiner{
+    width: 300px;
+    height: 250px;
+  }
+  .servs_menu_point{
+    font-size: 1.1em;
+  }
+  .img_zoomer{
+    width: 120px;
+    height: 70px;
+  }
+  .education_title{
+    font-size: 1.1em;
+  }
+  .experience_title{
+    font-size: 1.1em;
+  }
+  .my_email{
+    font-size: 1.1em;
+  }
+  .social_n a {
+    margin-left: 20px;
+  }
+}
+@media (min-width: 0px) and (max-width: 510px){
+  #content_1, #content_2, #content_3{
+    width: 350px;
+  }
+  #contact_content{
+    width: 250px;
+  }
+  .about_me_conteiner .mytext, .serv_sections .serv_text{
+    width: 134px;
+    font-size: 0.8em;
+  }
+  .serv_sections li .im{
+    font-size: 6.35em;
+  }
+  .education, .experience{
+    font-size: 0.8em;
+  }
+  .edu_slider .slides_title p{
+    margin-top: 5px;
+  }
+  .exp_slider .slides_title p{
+    margin-top: 4px;
+  }
+  .edu_slider, .exp_slider{
+    width: 207px;
+  }
+  .slides{
+    width: 200px;
+  }
+  .education_title, .experience_title{
+    margin: 4px;
+    margin-bottom: 8px;
+  }
+  .portfolio_menu{
+    font-size: 0.8em;
+    width: 32%;
+  }
+  .gallery{
+    width: 67.5%;
+  }
+  .img_conteiner{
+    width: 240px;
+    height: 190px;
+  }
+  .img_zoomer{
+    width: 100px;
+    height: 50px;
+    margin-left: 14px;
+  }
+  #image_modal{
+    width: 250px;
+    height: 250px;
+  }
+  .social_n{
+    width: 250px;
+  }
+}
+@media (min-width: 0px) and (max-width: 410px){
+  #content_1, #content_2, #content_3{
+    width: 300px;
+  }
+  .about_me_conteiner .mytext, .serv_sections .serv_text{
+    width: 120px;
+  }
+  .about_me .name{
+    font-size: 1.1em;
+  }
+  .serv_title{
+    font-size: 1.1em;
+  }
+  .education_title, .experience_title{
+    font-size: 0.9em;
+  }
+  .portfolio_menu{
+    width: 36%;
+  }
+  .gallery{
+    width: 63.5%;
+  }
+  .img_conteiner{
+    width: 195px;
+  }
+  .img_zoomer{
+    width: 90px;
+    margin-left: 5px;
+  }
+  #contact_content{
+    width: 230px;
+  }
+  .social_n{
+    width: 230px;
+  }
+  .social_n a i{
+    font-size: 1.5em;
+  }
+}
+@media (min-height: 0px) and (max-height: 550px){
+  #content_1, #content_2, #content_3{
+    top: 80px;
+    transform: translate(0, 0);
+  }
+}
+@media (min-height: 0px) and (max-height: 500px){
+  #main_conteiner{
+    overflow-y: scroll;
+  }
+}
+@media (max-height: 765px) and (min-width: 1350px) and (max-width: 2000px){
+  #content_1, #content_2, #content_3{
+    top: 90px;
+    transform: translate(0, 0);
+  }
+}
+@media (max-height: 700px) and (min-width: 1350px) and (max-width: 2000px){
+  #main_conteiner{
+    overflow-y: scroll;
+  }
+}

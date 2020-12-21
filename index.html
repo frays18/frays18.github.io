@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Vсard</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="shortcut icon" href="img/page.png" type="image/png">
+  <link rel="stylesheet" href="preloader/preloader.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/media.css"/>
+  <link rel="stylesheet" href="fonts/fonts.css"/>
+  <link rel="stylesheet" href="icons/iconmonstr-iconic-font-1.3.0/css/iconmonstr-iconic-font.css"/>
+</head>
+<body>
+ 
+  <!--Preloader-->
+  <div class="preloader">
+   <div class="circle_1"></div>
+   <div class="circle_2"></div> 
+   <div class="center_dot"></div>    
+  </div>
+  
+  <!--Menu for mobile devices-->
+  <div class="mobile_menu">
+    <div class="mm_shadow"></div>
+    <div class="mm_close"><i class="im im-x-mark-circle-o"></i></div>
+    <ul class="mm_menu">
+      <li id="s_2_1" class="mm_item"><a href="#about">about</a></li>
+      <li id="s_2_2" class="mm_item"><a href="#resume">resume</a></li>
+      <li id="s_2_3" class="mm_item"><a href="#portfolio">portfolio</a></li>
+      <li id="s_2_4" class="mm_item"><a href="#contact">contact</a></li>
+    </ul>   
+  </div>
+  
+  <!--Top main menu-->
+  <header id="main_menu">
+    <div class="innder_darkness"></div>
+    <ul class="main_nav">
+      <li><a href="#about" id="s_1" class="sections">about</a></li>
+      <li><a href="#resume" id="s_2" class="sections">resume</a></li>
+      <li><a href="#portfolio" id="s_3" class="sections">portfolio</a></li>
+      <li><a href="#contact" id="s_4" class="sections">contact</a></li>
+    </ul>     
+  </header>
+  
+  <!--Modal window for images-->
+  <div id="show_gallery_image">
+    <div class="img_preloader"></div>
+    <div id="gallery_image_shadow"></div>
+    <div id="image_modal"></div>
+    <i class="im im-x-mark-circle-o"></i>
+  </div>
+  
+  <!--Content-->
+  <div id="main_conteiner">
+    <div class="content_darkness"></div>
+    <!--First content(about)-->
+    <div id="content_1">
+      <div class="innder_darkness"></div>
+      <div class="blur_shadow"></div>
+      <div class="hide_conteiner">
+        <div class="about_me">
+          <div class="about_me_conteiner">
+            <div class="photo"></div>
+            <div class="name">Your Name</div>
+            <div class="mytext">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt.Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt.</div>
+          </div>
+        </div>
+        <div class="about_info">
+          <div class="more_myself">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.944 12.979c-.489 4.509-4.306 8.021-8.944 8.021-2.698 0-5.112-1.194-6.763-3.075l1.245-1.633c1.283 1.645 3.276 2.708 5.518 2.708 3.526 0 6.444-2.624 6.923-6.021h-2.923l4-5.25 4 5.25h-3.056zm-15.864-1.979c.487-3.387 3.4-6 6.92-6 2.237 0 4.228 1.059 5.51 2.698l1.244-1.632c-1.65-1.876-4.061-3.066-6.754-3.066-4.632 0-8.443 3.501-8.941 8h-3.059l4 5.25 4-5.25h-2.92z"/></svg>
+          </div>
+          <ul class="serv_sections">
+            <li id="serv_1" class="servs">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="serv_icons" fill="#6eecec"><path d="M0 0v19h24v-19h-24zm22 17h-20v-15h20v15zm-6.599 4l2.599 3h-12l2.599-3h6.802z"/></svg>
+              <div></div>
+              <div class="serv_title">responsive design</div>
+              <div class="serv_text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt</div>
+            </li>
+            <li id="serv_2" class="servs">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="serv_icons" fill="#6eecec"><path d="M19 2c0-1.104-.896-2-2-2h-10c-1.104 0-2 .896-2 2v20c0 1.104.896 2 2 2h10c1.104 0 2-.896 2-2v-20zm-8.5 0h3c.276 0 .5.224.5.5s-.224.5-.5.5h-3c-.276 0-.5-.224-.5-.5s.224-.5.5-.5zm1.5 20c-.553 0-1-.448-1-1s.447-1 1-1c.552 0 .999.448.999 1s-.447 1-.999 1zm5-3h-10v-14.024h10v14.024z"/></svg>
+              <div></div>
+              <div class="serv_title">app design</div>
+              <div class="serv_text">In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</div>
+            </li>
+            <li id="serv_3" class="servs">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="serv_icons" fill="#6eecec"><path d="M8.566 17.842c-.945 2.462-3.678 4.012-6.563 4.161.139-2.772 1.684-5.608 4.209-6.563l.51.521c-1.534 1.523-2.061 2.765-2.144 3.461.704-.085 2.006-.608 3.483-2.096l.505.516zm-1.136-11.342c-1.778-.01-4.062.911-5.766 2.614-.65.649-1.222 1.408-1.664 2.258 1.538-1.163 3.228-1.485 5.147-.408.566-1.494 1.32-3.014 2.283-4.464zm5.204 17.5c.852-.44 1.61-1.013 2.261-1.664 1.708-1.706 2.622-4.001 2.604-5.782-1.575 1.03-3.125 1.772-4.466 2.296 1.077 1.92.764 3.614-.399 5.15zm11.312-23.956c-.428-.03-.848-.044-1.261-.044-9.338 0-14.465 7.426-16.101 13.009l4.428 4.428c5.78-1.855 12.988-6.777 12.988-15.993v-.059c-.002-.437-.019-.884-.054-1.341zm-5.946 7.956c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2z"/></svg>
+              <div></div>
+              <div class="serv_title">logo design</div>
+              <div class="serv_text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt</div>
+            </li>
+            <li id="serv_4" class="servs">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="serv_icons" fill="#6eecec"><path d="M11.362 2c4.156 0 2.638 6 2.638 6s6-1.65 6 2.457v11.543h-16v-20h7.362zm.827-2h-10.189v24h20v-14.386c0-2.391-6.648-9.614-9.811-9.614z"/></svg>
+              <div></div>
+              <div class="serv_title">psd design</div>
+              <div class="serv_text">In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</div>
+            </li>
+          </ul> 
+        </div>
+      </div>
+    </div>
+    <!--Second content(resume)-->
+    <div id="content_2">
+      <div class="innder_darkness"></div>
+      <div class="blur_shadow"></div>
+      <div class="content_preloader"></div>
+      <div class="hide_conteiner">
+        <div class="education">
+          <i class="im im-magnifier-plus"></i>
+          <i class="im im-arrow-right"></i>
+          <div class="edu_shadow"></div>
+          <div class="education_title">eduction</div>
+          <i class="im im-graduation-hat"></i>
+          <div class="edu_slider">
+            <div class="edu_slides_conteiner">
+              <div id="edu_slide_1" class="slides">
+                <div class="slides_title"><i class="im im-calendar"></i><p>my title</p></div>
+                <div class="slides_text">In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</div>
+              </div>
+              <div id="edu_slide_2" class="slides">
+                <div class="slides_title"><i class="im im-calendar"></i><p>my title</p></div>
+                <div class="slides_text">In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</div>
+              </div>
+              <div id="edu_slide_3" class="slides">
+                <div class="slides_title"><i class="im im-calendar"></i><p>my title</p></div>
+                <div class="slides_text">In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</div>
+              </div>
+              <div id="edu_slide_4" class="slides">
+                <div class="slides_title"><i class="im im-calendar"></i><p>my title</p></div>
+                <div class="slides_text">In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</div>
+              </div>
+              <div id="edu_slide_5" class="slides">
+                <div class="slides_title"><i class="im im-calendar"></i><p>my title</p></div>
+                <div class="slides_text">In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</div>
+              </div>
+            </div>
+          </div>
+          <div class="slide_left edu_slide"><i class="im im-arrow-left-circle"></i></div>  
+          <div class="slide_right edu_slide"><i class="im im-arrow-right-circle"></i></div>
+          <div class="slider_status_pers"><div class="status_pers"></div></div>
+        </div>
+        <div class="experience">
+          <i class="im im-magnifier-plus"></i>
+          <i class="im im-arrow-left"></i>
+          <div class="exp_shadow"></div>
+          <div class="experience_title">experience</div>
+          <i class="im im-task-o"></i>
+          <div class="exp_slider">
+            <div class="exp_slides_conteiner">
+              <div id="exp_slide_1" class="slides">
+                <div class="slides_title"><i class="im im-check-square-o"></i><p>my title</p></div>
+                <div class="slides_text">In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</div>
+              </div>
+              <div id="exp_slide_2" class="slides">
+                <div class="slides_title"><i class="im im-check-square-o"></i><p>my title</p></div>
+                <div class="slides_text">In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</div>
+              </div>
+              <div id="exp_slide_3" class="slides">
+                <div class="slides_title"><i class="im im-check-square-o"></i><p>my title</p></div>
+                <div class="slides_text">In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</div>
+              </div>
+              <div id="exp_slide_4" class="slides">
+                <div class="slides_title"><i class="im im-check-square-o"></i><p>my title</p></div>
+                <div class="slides_text">In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</div>
+              </div>
+            </div>
+          </div>
+          <div class="slide_left exp_slide"><i class="im im-arrow-left-circle"></i></div>  
+          <div class="slide_right exp_slide"><i class="im im-arrow-right-circle"></i></div>
+          <div class="slider_status_pers"><div class="status_pers"></div></div>
+        </div>
+      </div>
+    </div>    
+    <!--Third content(portfolio)-->
+    <div id="content_3">
+      <div class="innder_darkness"></div>
+      <div class="blur_shadow"></div>
+      <div class="hide_conteiner">
+        <div class="portfolio_menu">
+          <ul class="servs_menu">
+            <li id="servs_menu_point_1" class="servs_menu_point"><a href="#">responsive design</a></li>
+            <li id="servs_menu_point_2" class="servs_menu_point"><a href="#">app design</a></li>
+            <li id="servs_menu_point_3" class="servs_menu_point"><a href="#">logo design</a></li>
+            <li id="servs_menu_point_4" class="servs_menu_point"><a href="#">psd design</a></li>
+          </ul>
+        </div>
+        <div class="gallery">
+          <div class="content_preloader"></div>
+          <div class="img_conteiner">
+            <div class="img_zoomer">
+              <div id="gallery_img_1" class="gallery_img">
+                <i class="im im-magnifier-plus"></i>
+                <div class="img_blur"></div>
+              </div>
+            </div>
+            <div class="img_zoomer">
+              <div id="gallery_img_2" class="gallery_img">
+                <i class="im im-magnifier-plus"></i>
+                <div class="img_blur"></div>
+              </div>
+            </div>
+            <div class="img_zoomer">
+              <div id="gallery_img_3" class="gallery_img">
+                <i class="im im-magnifier-plus"></i>
+                <div class="img_blur"></div>
+              </div>
+            </div>
+            <div class="img_zoomer">
+              <div id="gallery_img_4" class="gallery_img">
+                <i class="im im-magnifier-plus"></i>
+                <div class="img_blur"></div>
+              </div>
+            </div>
+            <div class="img_zoomer">
+              <div id="gallery_img_5" class="gallery_img">
+                <i class="im im-magnifier-plus"></i>
+                <div class="img_blur"></div>
+              </div>
+            </div>
+            <div class="img_zoomer">
+              <div id="gallery_img_6" class="gallery_img">
+                <i class="im im-magnifier-plus"></i>
+                <div class="img_blur"></div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--Forth content/contacts/footer(contact)-->
+  <footer id="contact_content">   
+    <div class="innder_darkness"></div> 
+    <div class="picture"><i class="im im-user-settings"></i></div>  
+    <div class="my_email">example@mail.com</div>
+    <div class="contact_content_line"></div>
+    <nav class="social_n">
+      <a href="#facebook"><i class="im im-facebook"></i></a>
+      <a href="#twitter"><i class="im im-twitter"></i></a>
+      <a href="#instagram"><i class="im im-dribbble"></i></a>
+      <a href="#instagram"><i class="im im-instagram"></i></a>
+
+    </nav>
+  </footer>
+  
+  <!--Additional navigation-->
+  <div class="add_nav add_nav_right">
+    <i class="im im-arrow-right-circle"></i>
+    <i class="im im-pin"></i>
+    <div class="back_color"></div>
+  </div>
+  <div class="add_nav add_nav_left"><i class="im im-arrow-left-circle"></i></div>
+  <div class="add_menu_content_title"><p>about</p></div>
+  
+  <!--Navigation changer-->
+  <div class="nav_set_conteiner">
+    <div class="nav_settings"><i class="im im-radio-button-circle-o"></i><i class="im im-gear"></i></div>    
+  </div>
+  
+  <!--Dark mode activator-->
+  <div class="dark_mode">
+    <div class="nav_settings"><i class="im im-toggle"></i></div>    
+  </div>
+
+<script src="libs/jquery-3.2.1.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
